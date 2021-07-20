@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.highscoresController">
+   <children>
+      <StackPane fx:id="pane" prefHeight="342.0" prefWidth="600.0" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#backHandler" style="-fx-background-color: #585858; -fx-text-fill: #F8F8F8; -fx-font-size: 20; -fx-background-radius: 15;" text="Back" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>

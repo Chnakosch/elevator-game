@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="169.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.popupController">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Label style="-fx-text-fill: #F8F8F8; -fx-font-size: 20;" text="Game Over!" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Label fx:id="hsLabel" style="-fx-text-fill: #F8F8F8; -fx-font-size: 15;" text="High Score: " />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <TextField fx:id="nameInput" prefHeight="25.0" prefWidth="166.0" promptText="Name" style="-fx-background-color: #D8D8D8;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <StackPane.margin>
+                  <Insets left="150.0" right="150.0" />
+               </StackPane.margin>
+            </TextField>
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#saveHandler" style="-fx-background-color: #585858; -fx-text-fill: #F8F8F8; -fx-background-radius: 10;" text="Save" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>

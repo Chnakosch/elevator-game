@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.menuController">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Label style="-fx-text-fill: #F8F8F8; -fx-font-size: 40;" text="A Liftes Játék" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#startgameHandler" style="-fx-background-color: #585858; -fx-text-fill: #F8F8F8; -fx-font-size: 20; -fx-background-radius: 15;" text="Start Game" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#highscoresHandler" style="-fx-background-color: #585858; -fx-text-fill: #F8F8F8; -fx-font-size: 20; -fx-background-radius: 15;" text="High Scores" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#settingsHandler" style="-fx-background-color: #585858; -fx-text-fill: #F8F8F8; -fx-font-size: 20; -fx-background-radius: 15;" text="Settings" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #181818;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#quitHandler" style="-fx-background-color: #585858; -fx-text-fill: #F8F8F8; -fx-font-size: 20; -fx-background-radius: 15;" text="Quit" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>
